@@ -1,10 +1,11 @@
 # jquery.slider
 this is a jquery plugin for slider
+###用法
 ```
-用法
 $('selector').slider( options );
-
-//options 参数列表
+```
+###options 参数列表
+```
 options = {
 	direction: "x", //滚动放心
 	next: ".J_next", //下一个按钮

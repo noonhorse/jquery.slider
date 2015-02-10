@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery.silder.js demo</title>
+	<style>
+	*{margin:0;padding:0;}
+	a{text-decoration: none;}
+	.product-explore-title {
+		margin: 0 5px;
+		position: relative;
+		height: 29px;
+		border-bottom: 1px solid #e7e7e7;
+		clear: both;
+		padding: 25px 0 15px;
+		font-size: 20px;
+		text-indent: 5px;
+		font-weight: normal;
+		color: #413636;
+	}
+
+	.product-explore-title a {
+		position: absolute;
+		right: 5px;
+		top: 0;
+		display: block;
+		height: 29px;
+		padding-top: 10px;
+	}
+
+	.product-explore-title a:hover {
+		color: #d52f46;
+	}
+
+	.product-explore-title {
+		margin: 0;
+	}
+
+	.prod-good-sale {
+		border-left: 1px solid #ebecef;
+		border-bottom: 1px solid #ebecef;
+	}
+
+	.prod-good-sale:after {
+		content: '';
+		display: block;
+		clear: both;
+	}
+
+	.p-g-s-lists {
+		border-right: 1px solid #ebecef;
+	    
+		/* border-top: 1px solid #ebecef; */
+	    float: left;
+	    position: relative;
+	    width: 309px;
+	}
+	#prod_good_sale .p-g-s-lists img{display: block;width: 300px;height: 300px;margin:0 auto;}
+	.p-g-s-lists-a {
+		text-align: center;
+		display: block;
+		padding-bottom: 20px;
+	}
+
+	.p-g-s-lists-a b {
+		color: #4b4b4b;
+		font-size: 16px;
+		font-weight: normal;
+	}
+	.prod-tejia-img img{width:240px;height:240px;margin-top: 20px;}
+	.p-g-s-lists-a span {
+		font-size: 12px;
+		color: #9e9e9e;
+		line-height: 24px;
+	}
+
+	.p-g-s-lists-a em {
+		display: block;
+		margin-top: 15px;
+		color: #9e9e9e;
+		font-size:16px;
+		font-style: normal;
+	}
+	.p-g-s-lists-a em i{
+		 
+		color: #4b4b4b;
+		font-style: normal;
+		margin-right:2px;
+	}
+	#content{
+		width:1241px;margin:0 auto;position: relative;
+	}
+	#prod_good_sale{height:402px;overflow:hidden;}
+	.arrow{width:600px;height:30px;font-size:14px;text-align:center;margin:0 auto;}
+	.arrow a{padding:0 30px;}
+	</style>
+<script src="jquery.js"></script>
+<script src="jquery.slider.js"></script>
+<script>
+	$(function(){
+		$('#prod_good_sale').slider({
+			auto:0,
+			itemWarp:'.pro_good_sale_warp',
+			itemwidth:310,
+			itemheight:402
+		})
+	})
+</script>
+</head>
+<body>
+	<div id="content">
+		<p class="arrow"><a href="javascript:;" class="J_prev">上一个</a> <a href="javascript:;" class="J_next">下一个</a></p>
+		<h4 class="product-explore-title">畅销手机</h4>
+		<div class="prod-good-sale" id="prod_good_sale">
+		 	<div class="pro_good_sale_warp">
+			    <div class="p-g-s-lists">
+			        <a href="http://www.coolpad.com/goods/2937.html" class="p-g-s-lists-a"
+			        target="_blank">
+			            <img src="http://res.coolpad.com/img/2937/6355/6355.png" alt="【直降200 史上最便宜八核手机 开放购买】5英寸 八核双卡双待5英寸 八核双卡双待">
+			            <b>
+			                大神F1八核版（8297D...
+			            </b>
+			            <!--i class="prod-flag-box-2"></i-->
+			            <br>
+			            <span>
+			                【直降200 史上最便宜八核手机 开放购买】...
+			            </span>
+			            <em>
+			                <i>
+			                    599
+			                </i>
+			                元
+			            </em>
+			        </a>
+			    </div>
+			    <div class="p-g-s-lists">
+			        <a href="http://www.coolpad.com/goods/3366.html" class="p-g-s-lists-a"
+			        target="_blank">
+			            <img src="http://res.coolpad.com/img/3366/6355/6355.png" alt="5吋高清屏 64位处理器 双卡双待 500W前置摄像头">
+			            <b>
+			                大神F1 Plus移动定制...
+			            </b>
+			            <!--i class="prod-flag-box-2"></i-->
+			            <br>
+			            <span>
+			                5吋高清屏 64位处理器 双卡双待 500W前置...
+			            </span>
+			            <em>
+			                <i>
+			                    599
+			                </i>
+			                元
+			            </em>
+			        </a>
+			    </div>
+			    <div class="p-g-s-lists">
+			        <a href="http://www.coolpad.com/goods/2897.html" class="p-g-s-lists-a"
+			        target="_blank">
+			            <img src="http://res.coolpad.com/img/2897/6355/6355.png" alt="真8核双卡双待 5.5吋高清屏 2G+16G大内存 1300W像素高清拍照">
+			            <b>
+			                大神F2移动4G版（智尚...
+			            </b>
+			            <!--i class="prod-flag-box-2"></i-->
+			            <br>
+			            <span>
+			                真8核双卡双待 5.5吋高清屏 2G+16G大内存 ...
+			            </span>
+			            <em>
+			                <i>
+			                    899
+			                </i>
+			                元
+			            </em>
+			        </a>
+			    </div>
+			    <div class="p-g-s-lists">
+			        <a href="http://www.coolpad.com/goods/3426.html" class="p-g-s-lists-a"
+			        target="_blank">
+			            <img src="http://res.coolpad.com/img/3426/6355/6355.png" alt="【本轮抢购结束，下一次抢购时间：2月10日10:08！】5.5英寸1080P全高清屏幕 高通骁龙真8核64位CPU 1300万AF">
+			            <b>
+			                大神F2全高清版（8675-...
+			            </b>
+			            <!--i class="prod-flag-box-2"></i-->
+			            <br>
+			            <span>
+			                【本轮抢购结束，下一次抢购时间：2月10日...
+			            </span>
+			            <em>
+			                <i>
+			                    999
+			                </i>
+			                元
+			            </em>
+			        </a>
+			    </div>
+			    <div class="p-g-s-lists">
+			        <a href="http://www.coolpad.com/goods/3241.html" class="p-g-s-lists-a"
+			        target="_blank">
+			            <img src="http://res.coolpad.com/img/3241/6355/6355.png" alt="【直降100，现价699元开放购买】5吋高清屏 64位处理器 双卡双待 800W像素高清拍照">
+			            <b>
+			                大神F1 Plus联通4G版...
+			            </b>
+			            <!--i class="prod-flag-box-2"></i-->
+			            <br>
+			            <span>
+			                【直降100，现价699元开放购买】5吋高清屏...
+			            </span>
+			            <em>
+			                <i>
+			                    699
+			                </i>
+			                元
+			            </em>
+			        </a>
+			    </div>
+			    <div class="p-g-s-lists">
+			        <a href="http://www.coolpad.com/goods/3220.html" class="p-g-s-lists-a"
+			        target="_blank">
+			            <img src="http://res.coolpad.com/img/3220/6355/6355.png" alt="【开放购买】双卡高通八核4G手机，年轻人专属4G神器！">
+			            <b>
+			                大神F2联通4G版（智尚...
+			            </b>
+			            <!--i class="prod-flag-box-2"></i-->
+			            <br>
+			            <span>
+			                【开放购买】双卡高通八核4G手机，年轻人...
+			            </span>
+			            <em>
+			                <i>
+			                    999
+			                </i>
+			                元
+			            </em>
+			        </a>
+			    </div>
+			    <div class="p-g-s-lists">
+			        <a href="http://www.coolpad.com/goods/3427.html" class="p-g-s-lists-a"
+			        target="_blank">
+			            <img src="http://res.coolpad.com/img/3427/6363/6363.png" alt="7吋8核2.0GHz处理器 1300万AF+500万前摄 4000mAh超大电池 支持双卡双待 ">
+			            <b>
+			                大神1S移动4G版（9976...
+			            </b>
+			            <!--i class="prod-flag-box-2"></i-->
+			            <br>
+			            <span>
+			                7吋8核2.0GHz处理器 1300万AF+500万前摄 4...
+			            </span>
+			            <em>
+			                <i>
+			                    1799
+			                </i>
+			                元
+			            </em>
+			        </a>
+			    </div>
+			    <div class="p-g-s-lists">
+			        <a href="http://www.coolpad.com/goods/2623.html" class="p-g-s-lists-a"
+			        target="_blank">
+			            <img src="http://res.coolpad.com/img/2623/6364/6364.png" alt="大神1S，为尖叫而生，直降400元发售中！">
+			            <b>
+			                大神1S（9976T）7英寸3...
+			            </b>
+			            <!--i class="prod-flag-box-2"></i-->
+			            <br>
+			            <span>
+			                大神1S，为尖叫而生，直降400元发售中！
+			            </span>
+			            <em>
+			                <i>
+			                    1488
+			                </i>
+			                元
+			            </em>
+			        </a>
+			    </div>
+		    </div>
+		</div>
+		<section style="margin-top:30px;">
+<pre>
+用法
+$('selector').slider( option );
+
+//option 参数列表
+defaults = {
+	direction: "x", //滚动放心
+	next: ".J_next", //下一个按钮
+	prev: ".J_prev", //上一个按钮
+	disableClass: "disabled", //禁止上下滚动点击
+	auto: 5000, //是否自动滚动,动画间隔延迟时间 如果时间为0 关闭自动滚动
+	speed: 500, //动画时间
+	// loop:false,  //是否循环
+	scrollnum: 4, //同时滚动个数
+	itemview: 4, //显示个数
+	itemWarp: '.itemWarp', //显示item列表的warp
+	itemwidth: null, //item宽度
+	itemheight: null, //item高度
+};
+</pre>
+		</section>
+	</div>
+</body>
+</html>
+

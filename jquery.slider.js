@@ -37,10 +37,10 @@
 				//初始化宽度和高度
 				if(opt.direction == "x"){//水平滚动
 					$(this).width(W_width).height(opt.itemheight)
-					_this.find(opt.itemWarp).width(width).height(opt.itemheight);
+					_this.find(opt.itemWarp).css({"width":width,"height":opt.itemheight,"margin-left":"0px"});
 				}else{//垂直滚动
 					$(this).width(opt.itemwidth).height(W_height)
-					_this.find(opt.itemWarp).width(opt.itemwidth).height(heihgt);
+					_this.find(opt.itemWarp).css({"width":opt.itemwidth,"height":heihgt,"margin-top":"0px"});
 				}
 			
 			/**

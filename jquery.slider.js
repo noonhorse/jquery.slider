@@ -1,6 +1,6 @@
 /**
  * jquery carousel plugins
- * @author <teen hewendong@yulong.com>
+ * @author <teen hewendong@qiku.com>
  * @created 20150210
  */
 ;(function($) {

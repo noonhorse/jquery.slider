@@ -10,6 +10,7 @@ options = {
 	direction: "x", //滚动放心
 	next: ".J_next", //下一个按钮
 	prev: ".J_prev", //上一个按钮
+	clickWarp:'body',//按钮warp
 	disableClass: "disabled", //禁止上下滚动点击
 	auto: 5000, //是否自动滚动,动画间隔延迟时间 如果时间为0 关闭自动滚动
 	speed: 500, //动画时间
